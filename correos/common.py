@@ -1,0 +1,5 @@
+#
+BROKER_IP='localhost'
+BROKER_PORT=5672
+#
+EXCHANGE_NAME='correos'
