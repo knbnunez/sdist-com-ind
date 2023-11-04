@@ -9,7 +9,9 @@ Lamentablemente, debido a cómo se implementó, la única manera de finalizar la
 
 ## Requerimientos ejecución:
 ***
+* [Instalar]: Docker Desktop, va a facilitar el test con RabbitMQ.
+* [Ejecutar]: docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management # https://www.rabbitmq.com/download.html 
 * [Instalar]: python3 # El test se hizo sobre la versión 3.10
 * [Instalar]: requirements.txt # Conveniente usar un entorno virtual 'pip install -r requirements.txt'
-* [Ejecución]: py main.py
+* [Ejecutar]: py main.py
 ***
